@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+    <div class="container">
+        <form class="form">
+            <h2>Ready For Amazing Trip</h2>
+            <div  class="form-control">
+                <label for="username">Username</label>
+                <input type="text" id="username" placeholder="enter username">
+            </div><br>
+
+            <div  class="form-control">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="enter email">
+            </div><br>
+
+            <div  class="form-control">
+                <label for="gender">Choose Gender</label> <br>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br>
+            </div><br>
+
+            <div class="form-control">
+                <label for="interest">Your Interest</label><br>
+                <input type="checkbox" id="interest1" name="interest1" value="sea">
+                <label for="interest1">Snorkle</label><br>
+                <input type="checkbox" id="interest2" name="interest2" value="mountain">
+                <label for="interest2">Hiking</label><br>
+                <input type="checkbox" id="interest3" name="interest3" value="history">
+                <label for="interest3">Field Trip</label><br>
+            </div><br>
+            
+            <div class="form-control">
+                <label for="pick up">Choose Pick Up Point</label>
+                <select name="pick up" id="pick up">
+                <option value="jakarta">jakarta</option>
+                <option value="bogor">bogor</option>
+                <option value="depok">depok</option>
+                <option value="tangerang">tangerang</option>
+                </select>
+            </div><br>
+
+            <div class="form-control">
+                <label for="travel kuy">If you have any question feel free to ask :</label><br>
+                <textarea id="w3review" name="w3review" rows="4" cols="35">
+                </textarea>
+            </div><br>
+
+            <div class="form-control">
+                <label for="myfile">Proof of Payment :</label>
+                <input type="file" id="myfile" name="myfile">       
+            </div><br>
+
+            <button type="submit">Submit my data</button>
+        </form>    
+    </div>  
+</body>
+</html> 
